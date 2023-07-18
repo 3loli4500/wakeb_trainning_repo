@@ -6,7 +6,8 @@
 //global varibales 
 int intmsg;
 std_msgs::String smsg;
-
+  
+  
 //callback function related to the subscriber
 void callback(const std_msgs::Int32::ConstPtr& msg){
 ROS_INFO("number is [%d]",msg->data);
